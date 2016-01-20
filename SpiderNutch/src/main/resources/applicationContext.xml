@@ -15,7 +15,7 @@
 		http://www.springframework.org/schema/context/spring-context-4.1.xsd" >
 	
 	<!-- Spring引入jdbc.properties文件 -->
-    <context:property-placeholder location="classpath:jdbc.properties,classpath:log4j.xml"/>
+    <context:property-placeholder location="classpath:jdbc.properties"/>
    
    <context:annotation-config />
    
