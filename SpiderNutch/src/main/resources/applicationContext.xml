@@ -88,7 +88,6 @@
     </bean>
     
     
-    
     <!-- ========================================分隔线========================================= -->
     <!-- 配置Spring的事务管理器 -->
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">

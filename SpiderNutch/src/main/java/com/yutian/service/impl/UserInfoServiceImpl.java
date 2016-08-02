@@ -1,6 +1,8 @@
 package com.yutian.service.impl;
 
 
+import java.util.Map;
+
 import javax.annotation.Resource;
 
 import org.springframework.stereotype.Service;
@@ -17,6 +19,14 @@ public class UserInfoServiceImpl implements UserInfoService{
 
 	public UserInfo getUserInfoById(String id) {
 		return userInfoMapper.getUserInfoById(id);
+	}
+
+	public UserInfo getUserByUserInfo(UserInfo userInfo) {
+		return userInfoMapper.getUserByUserInfo(userInfo);
+	}
+
+	public UserInfo getUserByUserAPass(Map paramMap) {
+		return userInfoMapper.getUserByUserAPass(paramMap);
 	}
 
 
